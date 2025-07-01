@@ -1,5 +1,7 @@
-import { Footer } from "./components/Footer"
-import { Navbar } from "./components/Navbar"
+import { AboutUs } from "../components/AboutUs"
+import { Footer } from "../components/Footer"
+import { Mision } from "../components/Mision"
+import { Navbar } from "../components/Navbar"
 
 
 export const LandingConstrucciones = () => {
@@ -9,8 +11,9 @@ export const LandingConstrucciones = () => {
         <header className="w-full">
           <Navbar />
         </header>
-        <main className="flex-1 px-4 py-8">
-          <h1>Construcciones Mujica</h1>
+        <main className="flex-1">
+          <AboutUs/>
+          <Mision/>
         </main>
 
         <footer><Footer/></footer>
