@@ -1,5 +1,6 @@
 
 import { AboutUs } from "../components/AboutUs/AboutUs"
+import { Companies } from "../components/Companies"
 import { Footer } from "../components/Footer"
 import { Mision } from "../components/Mision"
 import { Navbar } from "../components/Navbar"
@@ -19,6 +20,7 @@ export const LandingConstrucciones = () => {
           <AboutUs/>
           <Mision/>
           <Proyects/>
+          <Companies/>
         </main>
 
         <footer><Footer/></footer>

@@ -41,6 +41,7 @@ export const Proyects = () => {
             <SwiperSlide key={index} className="p-5">
               
                 <CardProyect
+                  id={proyecto.id}
                   title={proyecto.nombre}
                   description={proyecto.objetivo}
                   src="/vision.jpg"

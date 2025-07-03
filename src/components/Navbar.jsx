@@ -17,7 +17,7 @@ export const Navbar = () => {
 
         <ul className="hidden md:flex justify-end gap-6 text-nowrap">
           <li className="hover:text-amber-500 transition-colors duration-300 font-bold">
-            <a href="#presentacion">¿Quiénes somos?</a>
+            <a href="#presentation">¿Quiénes somos?</a>
           </li>
           <li className="hover:text-amber-500 transition-colors duration-300 font-bold">
             <a href="#mision">Misión</a>
@@ -26,7 +26,7 @@ export const Navbar = () => {
             <a href="#proyect">Proyectos</a>
           </li>
           <li className="hover:text-amber-500 transition-colors duration-300 font-bold">
-            <a href="#">Confiaron en nosotros</a>
+            <a href="#companies">Confiaron en nosotros</a>
           </li>
         </ul>
 
@@ -42,7 +42,7 @@ export const Navbar = () => {
           {isOpen && (
             <ul className="md:hidden flex flex-col items-start text-nowrap font-bold">
               <li className="hover:text-amber-500 transition-colors duration-300">
-                <a href="#presentacion" onClick={buttonMenu}>¿Quiénes somos?</a>
+                <a href="#presentation" onClick={buttonMenu}>¿Quiénes somos?</a>
               </li>
               <li className="hover:text-amber-500 transition-colors duration-300">
                 <a href="#mision" onClick={buttonMenu}>Misión</a>
@@ -51,7 +51,7 @@ export const Navbar = () => {
                 <a href="#proyect" onClick={buttonMenu}>Proyectos</a>
               </li>
               <li className="hover:text-amber-500 transition-colors duration-300">
-                <a href="#" onClick={buttonMenu}>Confiaron en nosotros</a>
+                <a href="#companies" onClick={buttonMenu}>Confiaron en nosotros</a>
               </li>
             </ul>
           )}

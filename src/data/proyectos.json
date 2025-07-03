@@ -1,5 +1,6 @@
 [
   {
+    "id":1,
     "nombre": "Remodelación CESS - Universidad de Las Américas, Viña del Mar",
     "fecha": "enero - febrero 2025",
     "resumen_tecnico": "506 m² de habilitación de salas de clases, simulación médica, control y bodega.",
@@ -7,6 +8,7 @@
     "detalles": "Tabiques en metalcon con volcanita, cristales espía, cielo americano lavable, iluminación LED y pavimento vinílico."
   },
   {
+    "id":2,
     "nombre": "Remodelación Torres B y C - UDLA, Viña del Mar",
     "fecha": "diciembre 2023 - marzo 2024",
     "resumen_tecnico": "640 m² de habilitación de salas de clases, oficinas y espacios comunes.",
@@ -14,6 +16,7 @@
     "detalles": "Tabiques de metalcon con volcanita y cristal/aluminio, cielo americano lavable, pavimento flotante y cerámico."
   },
   {
+    "id":3,
     "nombre": "Remodelaciones varias - Hotel Pullman San Martín, Viña del Mar",
     "fecha": "octubre 2023 - marzo 2024",
     "resumen_tecnico": "Trabajos de habilitación, mantención e impermeabilización.",
@@ -21,6 +24,7 @@
     "detalles": "Incluye protección de ductos y trabajos bajo deck."
   },
   {
+    "id":4,
     "nombre": "Habilitación Cuarto de Refrigeración - Productos del Mar Arpón Azul",
     "fecha": "junio - julio 2023",
     "resumen_tecnico": "20 m² de habilitación de cuarto de refrigeración.",
@@ -28,6 +32,7 @@
     "detalles": "Cerámica lavable en muros y piso, cielos lavables, accesos con lama."
   },
   {
+    "id":5,
     "nombre": "Recuperación Matriz de Agua - Hippocampus Resort",
     "fecha": "sin fecha especificada",
     "resumen_tecnico": "Recuperación de matriz de agua potable.",
@@ -35,6 +40,7 @@
     "detalles": "Movimiento de tierra y reparación de la red de agua potable."
   },
   {
+    "id":6,
     "nombre": "Habilitación Hospital Simulado CESS - UDLA, Viña del Mar",
     "fecha": "enero – marzo 2023",
     "resumen_tecnico": "210 m² de habilitación de salas de clases, oficinas y espacios de simulación.",
@@ -42,6 +48,7 @@
     "detalles": "Tabiques de metalcon, cristales espía, cielo lavable, iluminación LED y pavimento vinílico."
   },
   {
+    "id":7,
     "nombre": "Trabajos para Particulares",
     "fecha": "varios",
     "resumen_tecnico": "Obras menores y remodelaciones.",

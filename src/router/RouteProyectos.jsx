@@ -7,7 +7,7 @@ export const RouteProyectos = () => {
     <>
       <Routes>
             <Route path="/" element={<LandingConstrucciones/>}/>
-            <Route path="/proyectos" element={<h1>hola</h1>}/>
+            <Route path="/proyectos/:id" element={<h1>hola</h1>}/>
 
             <Route path="*" element={<Navigate to='/' replace/>}/>
         </Routes> 
