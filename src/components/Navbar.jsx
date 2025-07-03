@@ -9,7 +9,7 @@ export const Navbar = () => {
   }
 
   return (
-    <nav className="bg-white text-gray-800 w-full py-4 shadow-md">
+    <nav className="bg-white text-gray-800 w-full py-4 shadow-md fixed top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 grid grid-cols-2 items-center">
         <div>
           <img src="/Logo.png" alt="logo" className="h-20 w-auto" />
@@ -17,13 +17,13 @@ export const Navbar = () => {
 
         <ul className="hidden md:flex justify-end gap-6 text-nowrap">
           <li className="hover:text-amber-500 transition-colors duration-300 font-bold">
-            <a href="#">¿Quiénes somos?</a>
+            <a href="#presentacion">¿Quiénes somos?</a>
           </li>
           <li className="hover:text-amber-500 transition-colors duration-300 font-bold">
-            <a href="#">Misión</a>
+            <a href="#mision">Misión</a>
           </li>
           <li className="hover:text-amber-500 transition-colors duration-300 font-bold">
-            <a href="#">Proyectos</a>
+            <a href="#proyect">Proyectos</a>
           </li>
           <li className="hover:text-amber-500 transition-colors duration-300 font-bold">
             <a href="#">Confiaron en nosotros</a>
@@ -42,16 +42,16 @@ export const Navbar = () => {
           {isOpen && (
             <ul className="md:hidden flex flex-col items-start text-nowrap font-bold">
               <li className="hover:text-amber-500 transition-colors duration-300">
-                <a href="#">¿Quiénes somos?</a>
+                <a href="#presentacion" onClick={buttonMenu}>¿Quiénes somos?</a>
               </li>
               <li className="hover:text-amber-500 transition-colors duration-300">
-                <a href="#">Misión</a>
+                <a href="#mision" onClick={buttonMenu}>Misión</a>
               </li>
               <li className="hover:text-amber-500 transition-colors duration-300">
-                <a href="#">Proyectos</a>
+                <a href="#proyect" onClick={buttonMenu}>Proyectos</a>
               </li>
               <li className="hover:text-amber-500 transition-colors duration-300">
-                <a href="#">Confiaron en nosotros</a>
+                <a href="#" onClick={buttonMenu}>Confiaron en nosotros</a>
               </li>
             </ul>
           )}

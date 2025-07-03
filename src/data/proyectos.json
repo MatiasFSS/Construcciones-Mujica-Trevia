@@ -1,0 +1,59 @@
+[
+  {
+    "nombre": "Remodelación CESS - Universidad de Las Américas, Viña del Mar",
+    "fecha": "enero - febrero 2025",
+    "resumen_tecnico": "506 m² de habilitación de salas de clases, simulación médica, control y bodega.",
+    "objetivo": "Remodelación de recintos del CESS para aumentar los metros cuadrados disponibles debido al alza de estudiantes por recinto.",
+    "detalles": "Tabiques en metalcon con volcanita, cristales espía, cielo americano lavable, iluminación LED y pavimento vinílico."
+  },
+  {
+    "nombre": "Remodelación Torres B y C - UDLA, Viña del Mar",
+    "fecha": "diciembre 2023 - marzo 2024",
+    "resumen_tecnico": "640 m² de habilitación de salas de clases, oficinas y espacios comunes.",
+    "objetivo": "Reorganizar los espacios para separar salas de clases y oficinas administrativas.",
+    "detalles": "Tabiques de metalcon con volcanita y cristal/aluminio, cielo americano lavable, pavimento flotante y cerámico."
+  },
+  {
+    "nombre": "Remodelaciones varias - Hotel Pullman San Martín, Viña del Mar",
+    "fecha": "octubre 2023 - marzo 2024",
+    "resumen_tecnico": "Trabajos de habilitación, mantención e impermeabilización.",
+    "objetivo": "Implementación de oficina y bodega de mantención, impermeabilización y mantención de ventanales.",
+    "detalles": "Incluye protección de ductos y trabajos bajo deck."
+  },
+  {
+    "nombre": "Habilitación Cuarto de Refrigeración - Productos del Mar Arpón Azul",
+    "fecha": "junio - julio 2023",
+    "resumen_tecnico": "20 m² de habilitación de cuarto de refrigeración.",
+    "objetivo": "Obtener permisos de funcionamiento.",
+    "detalles": "Cerámica lavable en muros y piso, cielos lavables, accesos con lama."
+  },
+  {
+    "nombre": "Recuperación Matriz de Agua - Hippocampus Resort",
+    "fecha": "sin fecha especificada",
+    "resumen_tecnico": "Recuperación de matriz de agua potable.",
+    "objetivo": "Corregir debilitamiento del suelo y antigüedad de las instalaciones.",
+    "detalles": "Movimiento de tierra y reparación de la red de agua potable."
+  },
+  {
+    "nombre": "Habilitación Hospital Simulado CESS - UDLA, Viña del Mar",
+    "fecha": "enero – marzo 2023",
+    "resumen_tecnico": "210 m² de habilitación de salas de clases, oficinas y espacios de simulación.",
+    "objetivo": "Transformar cafetería en CESS avanzado para clases de simulación médica.",
+    "detalles": "Tabiques de metalcon, cristales espía, cielo lavable, iluminación LED y pavimento vinílico."
+  },
+  {
+    "nombre": "Trabajos para Particulares",
+    "fecha": "varios",
+    "resumen_tecnico": "Obras menores y remodelaciones.",
+    "objetivo": "Ejecutar proyectos personalizados para clientes particulares.",
+    "detalles": [
+      "Construcción de bodega",
+      "Construcción de fogón",
+      "Mejoramiento de jardín",
+      "Reparación de fachadas y cubiertas",
+      "Ampliaciones",
+      "Remodelaciones interiores",
+      "Mejoramiento de piscina"
+    ]
+  }
+]

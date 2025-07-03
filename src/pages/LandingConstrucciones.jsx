@@ -1,19 +1,24 @@
-import { AboutUs } from "../components/AboutUs"
+
+import { AboutUs } from "../components/AboutUs/AboutUs"
 import { Footer } from "../components/Footer"
 import { Mision } from "../components/Mision"
 import { Navbar } from "../components/Navbar"
+import { Presentation } from "../components/Presentation"
+import { Proyects } from "../components/Proyects/Proyects"
 
 
 export const LandingConstrucciones = () => {
   return (
     <>
-      <div className="flex flex-col min-h-screen">
+      <div className="flex flex-col min-h-screen overflow-x-hidden">
         <header className="w-full">
           <Navbar />
         </header>
-        <main className="flex-1">
+        <main className="flex-1 pt-20">
+          <Presentation/>
           <AboutUs/>
           <Mision/>
+          <Proyects/>
         </main>
 
         <footer><Footer/></footer>

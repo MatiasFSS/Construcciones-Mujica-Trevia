@@ -14,7 +14,7 @@ export const Mision = () => {
 
 
   return (
-    <section className="relative h-full min-h-90 w-full">
+    <section className="relative h-full min-h-96 w-full scroll-mt-28" id="mision">
         <div className="absolute inset-0 bg-[url('/mision.jpg')] bg-cover bg-center z-0"></div>
         <div className="absolute inset-0 bg-black opacity-60 z-10"></div>
 
