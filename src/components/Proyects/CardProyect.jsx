@@ -2,7 +2,7 @@
 export const CardProyect = ({title, description, src, alt, id}) => {
   return (
     <>
-      <div className="h-full min-h-[560px] sm:min-h-[580px] lg: flex flex-col bg-gray-800 rounded-2xl overflow-hidden shadow-sm transform transition-transform duration-300 hover:scale-105">
+      <div className="h-full min-h-[580px] sm:min-h-[680px] lg: flex flex-col bg-gray-800 rounded-2xl overflow-hidden shadow-sm transform transition-transform duration-300 hover:scale-105">
             <a href="#">
                 <img className="rounded-t-lg" src={src} alt={alt} />
             </a>

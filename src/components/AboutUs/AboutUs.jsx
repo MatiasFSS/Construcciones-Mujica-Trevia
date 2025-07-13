@@ -2,7 +2,7 @@ import { useInfo } from "../../hooks/useInfo"
 import aboutus from '../../data/data.json'
 import { ImgAboutUs } from "./ImgAboutUs";
 import { CardAboutUs } from "./CardAboutUs";
-import { Lightbulb } from 'lucide-react';
+import { FcIdea } from "react-icons/fc";
 
 export const AboutUs = () => {
 
@@ -20,7 +20,7 @@ export const AboutUs = () => {
           
           <div className="h-[350px] sm:h-[350px] bg-amber-400 rounded-3xl shadow-2xl p-6 text-white flex flex-col justify-center col-span-1 md:col-span-5 lg:col-span-4 transform transition-transform duration-300 hover:scale-105">
             <div className="flex items-center gap-3">
-              <Lightbulb className="w-8 h-8 text-white" />
+              <FcIdea className="w-10 h-10" />
               <span className="text-2xl sm:text-4xl font-bold mb-4 text-gray-800">{infoItem.title}</span>
             </div>
             <p className="text-base font-normal sm:text-lg text-md md:text-lg">{infoItem.informacion}</p>

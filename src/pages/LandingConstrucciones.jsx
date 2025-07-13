@@ -1,7 +1,7 @@
 
 import { AboutUs } from "../components/AboutUs/AboutUs"
 import { Companies } from "../components/Companies"
-import { Footer } from "../components/Footer"
+import { Footer } from "../components/Footer/Footer"
 import { Mision } from "../components/Mision"
 import { Navbar } from "../components/Navbar"
 import { Presentation } from "../components/Presentation"
