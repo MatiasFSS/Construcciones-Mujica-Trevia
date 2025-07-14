@@ -1,17 +1,7 @@
-import { useInfo } from "../hooks/useInfo"
-import mision from '../data/mision.json'
 
+export const Mision = ({data}) => {
 
-export const Mision = () => {
-
-    const {info} = useInfo(mision)
-
-    if (!info) {
-    return <div className="container mt-4">No hay datos disponibles</div>;
-  }
-
-  const infoItem = Array.isArray(info) ? info[0] : info;
-
+  const infoItem = Array.isArray(data) ? data[0] : data;
 
   return (
     <section className="relative h-full min-h-96 w-full scroll-mt-28" id="mision">

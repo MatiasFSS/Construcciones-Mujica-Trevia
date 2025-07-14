@@ -3,55 +3,64 @@
     "id":1,
     "nombre": "Remodelación CESS - Universidad de Las Américas, Viña del Mar",
     "fecha": "enero - febrero 2025",
-    "resumen_tecnico": "506 m² de habilitación de salas de clases, simulación médica, control y bodega.",
+    "objetivo_general": "506 m² de habilitación de salas de clases, simulación médica, control y bodega.",
     "objetivo": "Remodelación de recintos del CESS para aumentar los metros cuadrados disponibles debido al alza de estudiantes por recinto.",
-    "detalles": "Tabiques en metalcon con volcanita, cristales espía, cielo americano lavable, iluminación LED y pavimento vinílico."
+    "detalles": "Tabiques en metalcon con volcanita, cristales espía, cielo americano lavable, iluminación LED y pavimento vinílico.",
+    "antecedentes":"Se solicita la remodelación de recintos del CESS  (Centro de Entrenamiento en Simulación en Salud) de la Universidad de las Américas, Sede Viña del Mar. Proyecto enmarcado en la actualización del estándar asociado al aumento de cantidad de alumnos por cada recintos, lo que implica un aumento de metros cuadrados.",
+    "resumen_tecnico":"Construcción de tabiques opacos en estructuras de metalcon y revestidos con volcanita pintada con esmalte al agua, cristales espía para salas de control docente . Cielo Americano tipo lavable con iluminación led. Pavimento laminado vinílico."
   },
   {
     "id":2,
     "nombre": "Remodelación Torres B y C - UDLA, Viña del Mar",
     "fecha": "diciembre 2023 - marzo 2024",
-    "resumen_tecnico": "640 m² de habilitación de salas de clases, oficinas y espacios comunes.",
+    "objetivo_general": "640 m² de habilitación de salas de clases, oficinas y espacios comunes.",
     "objetivo": "Reorganizar los espacios para separar salas de clases y oficinas administrativas.",
-    "detalles": "Tabiques de metalcon con volcanita y cristal/aluminio, cielo americano lavable, pavimento flotante y cerámico."
+    "detalles": "Tabiques de metalcon con volcanita y cristal/aluminio, cielo americano lavable, pavimento flotante y cerámico.",
+    "antecedentes":"Remodelación de Salas de clases y oficinas, que busca reorganizar y separar los espacios según su uso en cada torre; B y C. El proyecto se enfoca en el ordenamiento de espacios tal de mantener separadas las salas de clases de las oficinas administrativas",
+    "resumen_tecnico": "Construcción de tabiques opacos en estructuras de metalcon y revestidos con volcanita pintada con esmalte al agua para salas de clases. Mientras que para oficinas predomina el uso de tabiquerías de cristal y aluminio . Cielo Americano tipo lavable con iluminación led. Pavimento laminado flotante y cerámico para espacios comunes."
   },
   {
     "id":3,
     "nombre": "Remodelaciones varias - Hotel Pullman San Martín, Viña del Mar",
     "fecha": "octubre 2023 - marzo 2024",
-    "resumen_tecnico": "Trabajos de habilitación, mantención e impermeabilización.",
+    "objetivo_general": "Trabajos de habilitación, mantención e impermeabilización.",
     "objetivo": "Implementación de oficina y bodega de mantención, impermeabilización y mantención de ventanales.",
-    "detalles": "Incluye protección de ductos y trabajos bajo deck."
+    "detalles": "Incluye protección de ductos y trabajos bajo deck.",
+    "antecedentes": "Hotel Pullman necesita implementar oficina y boega para espacios de Mantención, además de trabajos de Impermeabilización bajo deck y en cielo, protección de ductos y mantención de ventanales"
   },
   {
     "id":4,
     "nombre": "Habilitación Cuarto de Refrigeración - Productos del Mar Arpón Azul",
     "fecha": "junio - julio 2023",
-    "resumen_tecnico": "20 m² de habilitación de cuarto de refrigeración.",
+    "objetivo_general": "20 m² de habilitación de cuarto de refrigeración.",
     "objetivo": "Obtener permisos de funcionamiento.",
-    "detalles": "Cerámica lavable en muros y piso, cielos lavables, accesos con lama."
+    "detalles": "Cerámica lavable en muros y piso, cielos lavables, accesos con lama.",
+    "antecedentes":"La empresa solicita habilitación de su cuarto de refrigeración para poder obtener los permisos de funcionamiento. Se realiza revestimiento de muros y piso con cerámica cumpliendo la función lavable. Accesos con lama y cielos lavables."
   },
   {
     "id":5,
     "nombre": "Recuperación Matriz de Agua - Hippocampus Resort",
     "fecha": "sin fecha especificada",
-    "resumen_tecnico": "Recuperación de matriz de agua potable.",
+    "objetivo_general": "Recuperación de matriz de agua potable.",
     "objetivo": "Corregir debilitamiento del suelo y antigüedad de las instalaciones.",
-    "detalles": "Movimiento de tierra y reparación de la red de agua potable."
+    "detalles": "Movimiento de tierra y reparación de la red de agua potable.",
+    "antecedentes":"Debido a la antigüedad de las instalaciones y a los eventos de debilitamiento de suelos, es que el mandante solicita realizar Movimiento de tierra y la recuperación de Matriz de agua potable."
   },
   {
     "id":6,
     "nombre": "Habilitación Hospital Simulado CESS - UDLA, Viña del Mar",
     "fecha": "enero – marzo 2023",
-    "resumen_tecnico": "210 m² de habilitación de salas de clases, oficinas y espacios de simulación.",
+    "objetivo_general": "210 m² de habilitación de salas de clases, oficinas y espacios de simulación.",
     "objetivo": "Transformar cafetería en CESS avanzado para clases de simulación médica.",
-    "detalles": "Tabiques de metalcon, cristales espía, cielo lavable, iluminación LED y pavimento vinílico."
+    "detalles": "Tabiques de metalcon, cristales espía, cielo lavable, iluminación LED y pavimento vinílico.",
+    "antecedentes": " Utilizado el espacio como una cafetería, se necesita habilitar esta superficie como un CESS Avanzado, destinado a clases de simulación médica enfocado en carreras de Enfermería.",
+    "resumen_tecnico":" Construcción de tabiques opacos en estructuras de metalcon y revestidos con volcanita pintada con esmalte al agua, cristales espía para salas de control docente . Cielo Americano tipo lavable con iluminación led. Pavimento laminado vinílico."
   },
   {
     "id":7,
     "nombre": "Trabajos para Particulares",
     "fecha": "varios",
-    "resumen_tecnico": "Obras menores y remodelaciones.",
+    "objetivo_general": "Obras menores y remodelaciones.",
     "objetivo": "Ejecutar proyectos personalizados para clientes particulares.",
     "detalles": [
       "Construcción de bodega",
@@ -61,6 +70,7 @@
       "Ampliaciones",
       "Remodelaciones interiores",
       "Mejoramiento de piscina"
-    ]
+    ],
+    "antecedentes":"Nuestros clientes particulares confían en nuestras manos para llevar a cabo sus propias ideas."
   }
 ]

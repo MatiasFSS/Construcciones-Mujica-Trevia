@@ -1,5 +1,5 @@
 
-export const CardProyect = ({title, description, src, alt, id}) => {
+export const CardProyect = ({title, description, src, alt, id, fecha}) => {
   return (
     <>
       <div className="h-full min-h-[580px] sm:min-h-[680px] lg: flex flex-col bg-gray-800 rounded-2xl overflow-hidden shadow-sm transform transition-transform duration-300 hover:scale-105">
@@ -10,6 +10,7 @@ export const CardProyect = ({title, description, src, alt, id}) => {
                 <a href="#" className="hover:text-blue-800 dark:hover:text-blue-700 ">
                     <h5 className="mb-2 text-2xl font-bold tracking-tight text-amber-400">{title}</h5>
                 </a>
+                <h4 className="mb-3 font-extralight text-gray-700 dark:text-white">{fecha}</h4>
                 <p className="mb-3 font-normal text-gray-700 dark:text-white">{description}</p>
 
                    

@@ -1,15 +1,15 @@
-import { useEffect, useState } from "react";
+import { useState, useEffect } from "react";
 
-export const useInfo = (dataInfo) => {
-    const [info, setInfo] = useState(null)
+export const useInfo = (initialData, delay = 600) => {
+  const [info, setInfo] = useState(null);
 
-    useEffect(() => {
-        setInfo(dataInfo)
-    }, []);
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setInfo(initialData);
+    }, delay);
 
-  return{
-    info,
-  }
-}
+    return () => clearTimeout(timer);
+  }, [initialData, delay]);
 
-
+  return info;
+};
