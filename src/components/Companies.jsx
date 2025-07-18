@@ -9,7 +9,7 @@ export const Companies = ({data}) => {
 
 
   return (
-      <section className="w-full flex justify-center bg-gray-100 scroll-mt-28 pb-10" id="companies">
+      <section className="w-full flex justify-center bg-gray-100 scroll-mt-28 pb-10" id="empresas">
         <div className="w-full max-w-7xl px-4">
             <Swiper
               modules={[Autoplay]}

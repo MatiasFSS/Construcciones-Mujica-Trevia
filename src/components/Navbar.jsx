@@ -1,4 +1,4 @@
-import { useLocation, useNavigate } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useState } from "react";
 
 export const Navbar = () => {
@@ -17,23 +17,25 @@ export const Navbar = () => {
     <nav className="bg-white text-gray-800 w-full py-4 shadow-md fixed top-0 z-50">
     <div className="max-w-7xl mx-auto px-4 grid grid-cols-2 items-center">
       <div>
-        <img src="/Logo.png" alt="logo" className="h-20 w-auto" />
+        <Link to="/">
+          <img src="/Logo.png" alt="logo" className="h-20 w-auto" />
+        </Link>
       </div>
 
       {!isProjectPage ? (
         <>
           <ul className="hidden md:flex justify-end gap-6 text-nowrap">
             <li className="hover:text-amber-500 font-bold">
-              <a href="#presentation">¿Quiénes somos?</a>
+              <a href="#presentación">¿Quiénes somos?</a>
             </li>
             <li className="hover:text-amber-500 font-bold">
-              <a href="#mision">Misión</a>
+              <a href="#misión">Misión</a>
             </li>
             <li className="hover:text-amber-500 font-bold">
-              <a href="#proyect">Proyectos</a>
+              <a href="#proyectos">Proyectos</a>
             </li>
             <li className="hover:text-amber-500 font-bold">
-              <a href="#companies">Confiaron en nosotros</a>
+              <a href="#empresas">Confiaron en nosotros</a>
             </li>
           </ul>
           <div className="flex justify-end md:hidden">
@@ -46,10 +48,10 @@ export const Navbar = () => {
           
           {isOpen && (
             <ul className="md:hidden flex flex-col items-start text-nowrap font-bold">
-              <li><a href="#presentation" onClick={buttonMenu}>¿Quiénes somos?</a></li>
-              <li><a href="#mision" onClick={buttonMenu}>Misión</a></li>
-              <li><a href="#proyect" onClick={buttonMenu}>Proyectos</a></li>
-              <li><a href="#companies" onClick={buttonMenu}>Confiaron en nosotros</a></li>
+              <li><a href="#presentación" onClick={buttonMenu}>¿Quiénes somos?</a></li>
+              <li><a href="#misión" onClick={buttonMenu}>Misión</a></li>
+              <li><a href="#proyectos" onClick={buttonMenu}>Proyectos</a></li>
+              <li><a href="#empresas" onClick={buttonMenu}>Confiaron en nosotros</a></li>
             </ul>
           )}
         </>

@@ -8,7 +8,7 @@ import 'swiper/css/autoplay';
 
 export const Proyects = ({ data }) => {
   return (
-    <section className="w-full min-h-screen py-10 bg-gray-100 scroll-mt-28" id="proyect">
+    <section className="w-full min-h-screen py-10 bg-gray-100 scroll-mt-28" id="proyectos">
       <div className="w-full px-4 md:px-10">
         <Swiper
           modules={[Autoplay]}

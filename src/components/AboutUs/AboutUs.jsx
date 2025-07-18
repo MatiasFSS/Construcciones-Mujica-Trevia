@@ -6,7 +6,7 @@ export const AboutUs = ({ data }) => {
   const infoItem = Array.isArray(data) ? data[0] : data;
 
   return (
-    <section className="w-full flex items-center justify-center scroll-mt-28" id="presentation">
+    <section className="w-full flex items-center justify-center scroll-mt-28" id="presentación">
       <div className="grid grid-cols-1 md:grid-cols-5 lg:grid-cols-7 auto-rows-auto gap-10 w-full p-10">
         
         <div className="h-[350px] sm:h-[350px] bg-amber-400 rounded-3xl shadow-2xl p-6 text-white flex flex-col justify-center col-span-1 md:col-span-5 lg:col-span-4 transform transition-transform duration-300 hover:scale-105">
