@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-export const useInfo = (initialData, delay = 600) => {
+export const useInfo = (initialData, delay = 500) => {
   const [info, setInfo] = useState(null);
 
   useEffect(() => {
